@@ -12,23 +12,28 @@
     width: 100%;
 }
 
+
+/* CONTAINER CARDS-TITLE-PARAGRAPH */
 .container {
     width: 80%;
     margin: 0 auto;
     text-align: center;
 }
 
+/* TITLE */
 .title {
     font-family: 'Fredoka', sans-serif;
     color: #E53170;
     padding: 40px 0;
 }
 
+/* PARAGRAPH */
 .paragraph {
     padding: 40px 0;
     font-family: 'Fredoka', sans-serif;
 }
 
+/* CARDS */
 .row {
     width: calc(100% + 20px);
     float: left;
@@ -36,7 +41,7 @@
     margin-right: -10px;
   }
 
-  .col1-3 {
+.col1-3 {
     width: calc(100%/3 - 20px);
     height: 150px;
     float: left;
@@ -48,32 +53,29 @@
     text-align: left;
     box-shadow: 8px 8px 8px 2px gray;
     transition: all .2s ease-in-out; 
-
-    
-  }
+}
   
-  .col1-3:hover {
-    transform: scale(1.3);
-    
-    }
+.col1-3:hover {
+    transform: scale(1.3);   
+}
   
-
-  .col1-3 img {
+    /* IMG */
+.col1-3 img {
     height: 100%;
     float: left;
   }
 
-  .col1-3  p {
+.col1-3  p {
     color:white;
     font-size: 30px;
   }
 
-  .wrapper-text {
+.wrapper-text {
     padding-top: 23px;
     padding-left: 175px;
   }
 
-  .wrapper-text a {
+.wrapper-text a {
     text-decoration: none;
     font-size: 21px;
   }
